@@ -1,0 +1,11 @@
+animal_id,animal_name,animal_type,origin,habitat,diet,avg_life_span_years,number_of_visits_daily
+1,Larry,Lion,Africa,Savannah,Carnivore,15,200
+2,Fluffy,Polar Bear,Arctic,Ice Cap,Carnivore,25,150
+3,Bubbles,Dolphin,Oceans,Marine,Carnivore,40,500
+4,Sweetie,Giant Panda,China,Forests,Herbivore,20,300
+5,Zigzag,Zebra,Africa,Savannah,Herbivore,25,250
+6,Chuckles,Chimpanzee,Central Africa,Forests,Omnivore,50,350
+7,Speedy,Cheetah,Africa,Savannah,Carnivore,15,300
+8,Pinky,Flamingo,Africa and America,Wetlands,Herbivore,40,400
+9,Slither,Python,Asia,Jungle,Carnivore,25,100
+10,Tiny,Elephant,Africa,Savannah,Herbivore,70,500
