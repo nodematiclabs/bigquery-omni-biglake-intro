@@ -1,0 +1,596 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 606
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse
+      id: collapse
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: -96
+  verticalOffset: 51
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+  name: BigQuery BigLake
+  author: Nodematic
+  description: '<p><span style="color: rgba(0, 0, 0,
+    0.66);">bqcx-856468817548-yy0n@gcp-sa-bigquery-condel.iam.gserviceaccount.com</span></p>'
+  objectives: []
+  experiments: []
+  experimentCols:
+    - field: name
+      header: Name
+connectors:
+  - id: Dashed Straight ConnectorSiB2P
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 214.18
+      y: 305
+    targetPoint:
+      x: 355.82
+      y: 235
+    sourceID: BigQueryZ20cZ
+    targetID: Amazon Simple Storage Serviceqalpn
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Straight ConnectorSipNM
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 211.85
+      y: 405
+    targetPoint:
+      x: 358.15
+      y: 479
+    sourceID: BigQueryZ20cZ
+    targetID: Cloud StoragegMfRh
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorWWD33
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 263
+      y: 375.11
+    targetPoint:
+      x: 403
+      y: 393.89
+    sourceID: BigQueryZ20cZ
+    targetID: Googleylavd
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight ConnectorbxO6g
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 263
+      y: 336.59
+    targetPoint:
+      x: 403
+      y: 319.41
+    sourceID: BigQueryZ20cZ
+    targetID: BigtablewuRto
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);"></div><div
+        class="c-text"><div class="c-title">BigQuery (BigLake,
+        Omni...)</div><div class="c-short-description">Analyzing massive
+        datasets in real-time using SQL-like queries</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: BigQueryZ20cZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: BigQuery
+        shortDescription: Analyzing massive datasets in real-time using SQL-like queries
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: BigQuery
+      editableName: BigQuery (BigLake, Omni...)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: BigQuery
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 113
+    offsetY: 355
+    annotations:
+      - id: le1Wh
+    zIndex: 0
+    outEdges:
+      - Dashed Straight ConnectorSiB2P
+      - Dashed Straight ConnectorSipNM
+      - Dashed Straight ConnectorWWD33
+      - Dashed Straight ConnectorbxO6g
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #232F3E;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-Simple-Storage-Service_Black_87_uc0w65.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-Simple-Storage-Service_sl02fr.png);"></div><div
+        class="c-text"><div class="c-title">Amazon S3</div><div
+        class="c-short-description">Storing and retrieving data in a scalable,
+        secure, and cost-effective manner</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Amazon Web
+        Services</div></div></div></div></div>'
+    id: Amazon Simple Storage Serviceqalpn
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Amazon Simple Storage Service
+        shortDescription: Storing and retrieving data in a scalable, secure, and
+          cost-effective manner
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Amazon Simple Storage Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Amazon Simple Storage Service
+      editableName: Amazon S3
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Amazon Simple Storage Service
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-Simple-Storage-Service_sl02fr.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-Simple-Storage-Service__044448_ouyv6r.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-Simple-Storage-Service_Black_87_uc0w65.png
+      color: "#232F3E"
+      controlText: Simple Storage Service
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 457
+    offsetY: 185
+    zIndex: 1
+    inEdges:
+      - Dashed Straight ConnectorSiB2P
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigtable_Black_87_cuqvud.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigtable_pydykd.png);"></div><div
+        class="c-text"><div class="c-title">Bigtable</div><div
+        class="c-short-description">Managing and storing large-scale structured
+        data across distributed clusters</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: BigtablewuRto
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Bigtable
+        shortDescription: Managing and storing large-scale structured data across
+          distributed clusters
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Bigtable
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Bigtable
+      editableName: Bigtable
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Bigtable
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigtable_pydykd.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigtable__044448_h4kahe.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigtable_Black_87_cuqvud.png
+      color: "#3871e0"
+      controlText: Bigtable
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 553
+    offsetY: 301
+    zIndex: 2
+    inEdges:
+      - Dashed Straight ConnectorbxO6g
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #E62222;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_Black_87_and066.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_nszd8y.png);"></div><div
+        class="c-text"><div class="c-title">Google Drive</div><div
+        class="c-short-description">Consumer offering around file
+        storage</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google</div></div></div></div></div>'
+    id: Googleylavd
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google
+        shortDescription: Consumer offering around file storage
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google
+      editableName: Google Drive
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_nszd8y.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google__044448_fia9qy.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1683959517/sds_logos/Google_Black_87_and066.png
+      color: "#E62222"
+      controlText: Google
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 553
+    offsetY: 414
+    zIndex: 3
+    inEdges:
+      - Dashed Straight ConnectorWWD33
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storing, managing, and securing large
+        amounts of data</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud StoragegMfRh
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+        shortDescription: Storing, managing, and securing large amounts of data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 457
+    offsetY: 529
+    zIndex: 4
+    inEdges:
+      - Dashed Straight ConnectorSipNM
+selectedItems:
+  width: 0
+  height: 0
